@@ -1,4 +1,4 @@
-package com.hackerrank.algorithms.warmup;
+package com.hackerrank.algorithms.bitmanipulation;
 
 import java.util.Scanner;
 

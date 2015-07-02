@@ -1,4 +1,4 @@
-package com.hackerrank.algorithms.warmup;
+package com.hackerrank.algorithms.greedy;
 
 import java.io.BufferedReader;
 import java.io.IOException;

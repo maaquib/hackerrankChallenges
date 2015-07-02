@@ -1,4 +1,4 @@
-package com.hackerrank.algorithms.warmup;
+package com.hackerrank.algorithms.strings;
 
 import java.util.HashMap;
 import java.util.Iterator;

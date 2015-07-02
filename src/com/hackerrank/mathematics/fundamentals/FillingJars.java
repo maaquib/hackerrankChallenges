@@ -1,4 +1,4 @@
-package com.hackerrank.algorithms.warmup;
+package com.hackerrank.mathematics.fundamentals;
 
 import java.util.Scanner;
 
