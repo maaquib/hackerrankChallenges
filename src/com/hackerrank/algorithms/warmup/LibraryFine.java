@@ -1,3 +1,4 @@
+package com.hackerrank.algorithms.warmup;
 import java.util.Scanner;
 
 public class LibraryFine {
