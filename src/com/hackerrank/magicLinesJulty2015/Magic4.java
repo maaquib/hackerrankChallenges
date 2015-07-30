@@ -1,4 +1,4 @@
-package com.hackerrank.magic_lines_july_2015;
+package com.hackerrank.magicLinesJulty2015;
 
 import java.util.Scanner;
 

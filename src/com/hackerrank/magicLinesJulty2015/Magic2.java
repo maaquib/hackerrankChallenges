@@ -1,4 +1,4 @@
-package com.hackerrank.magic_lines_july_2015;
+package com.hackerrank.magicLinesJulty2015;
 
 import java.util.Scanner;
 
@@ -8,7 +8,8 @@ public class Magic2 {
 		StringBuffer dest = new StringBuffer();
 		for (int i = 0; i < source.length(); i++) {
 			int runLength = 1;
-			while (i < source.length() - 1 && source.charAt(i) == source.charAt(i + 1)) {
+			while (i < source.length() - 1
+					&& source.charAt(i) == source.charAt(i + 1)) {
 				runLength++;
 				i++;
 			}

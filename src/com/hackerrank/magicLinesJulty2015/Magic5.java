@@ -1,4 +1,4 @@
-package com.hackerrank.magic_lines_july_2015;
+package com.hackerrank.magicLinesJulty2015;
 
 import java.util.Scanner;
 
@@ -75,7 +75,8 @@ public class Magic5 {
 			diff_x = Math.abs(points[i].x - best_pt.x);
 			diff_y = Math.abs(points[i].y - best_pt.y);
 
-			total_dist += diff_x == 0 ? diff_y : (diff_y == 0 ? diff_x : Math.max(diff_x, diff_y));
+			total_dist += diff_x == 0 ? diff_y : (diff_y == 0 ? diff_x : Math
+					.max(diff_x, diff_y));
 		}
 		System.out.println(total_dist);
 
