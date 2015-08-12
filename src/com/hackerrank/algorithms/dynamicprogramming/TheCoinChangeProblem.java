@@ -20,16 +20,16 @@ public class TheCoinChangeProblem {
 		sc.close();
 	}
 
-	private static int validCombosCount(int[] coins, int len, int sum) {
-		int[][] table = new int[sum + 1][len];
+	private static long validCombosCount(int[] coins, int len, int sum) {
+		long[][] table = new long[sum + 1][len];
 		for (int i = 0; i < len; i++) {
 			table[0][i] = 1;
 		}
 
 		for (int i = 1; i < sum + 1; i++) {
 			for (int j = 0; j < len; j++) {
-				int x = i >= coins[j] ? table[i - coins[j]][j] : 0;
-				int y = j >= 1 ? table[i][j - 1] : 0;
+				long x = (i >= coins[j]) ? (long) table[i - coins[j]][j] : 0;
+				long y = (j >= 1) ? (long) table[i][j - 1] : 0;
 				table[i][j] = x + y;
 			}
 		}
